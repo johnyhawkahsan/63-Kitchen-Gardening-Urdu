@@ -12,21 +12,21 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/nav_gallery"
+        android:id="@+id/nav_course"
         android:name="com.johnyhawkdesigns.a63_kitchen_gardening_urdu.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
+        android:label="@string/menu_course"
         tools:layout="@layout/fragment_gallery" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
+        android:id="@+id/nav_plants_info"
         android:name="com.johnyhawkdesigns.a63_kitchen_gardening_urdu.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
+        android:label="@string/menu_plants_info"
         tools:layout="@layout/fragment_slideshow" />
 
     <fragment
-        android:id="@+id/nav_tools"
+        android:id="@+id/nav_gardening_tips"
         android:name="com.johnyhawkdesigns.a63_kitchen_gardening_urdu.ui.tools.ToolsFragment"
-        android:label="@string/menu_tools"
+        android:label="@string/menu_gardening_tips"
         tools:layout="@layout/fragment_tools" />
 
     <fragment
@@ -36,8 +36,8 @@
         tools:layout="@layout/fragment_share" />
 
     <fragment
-        android:id="@+id/nav_send"
+        android:id="@+id/about_us"
         android:name="com.johnyhawkdesigns.a63_kitchen_gardening_urdu.ui.send.SendFragment"
-        android:label="@string/menu_send"
+        android:label="@string/menu_about_us"
         tools:layout="@layout/fragment_send" />
 </navigation>
